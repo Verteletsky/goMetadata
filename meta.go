@@ -32,6 +32,8 @@ func CheckMetaData(ctx context.Context) (string, string, error) {
 		} else {
 			return "", "", errors.New("unauthorized")
 		}
+	} else {
+		return "", "", errors.New("nil headers")
 	}
 
 	log.Println(userID)

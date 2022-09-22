@@ -1,4 +1,4 @@
-module goMetadata
+module github.com/verteletsky/goMetadata
 
 go 1.19
 

@@ -1,4 +1,4 @@
-package main
+package goMetadata
 
 import (
 	"context"

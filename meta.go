@@ -37,7 +37,7 @@ func CheckMetaData(ctx context.Context) (string, string, error) {
 	return userID, userType, nil
 }
 
-func CustomMatherHeader(key string) (string, bool) {
+func CustomMatcherHeader(key string) (string, bool) {
 	switch strings.ToLower(key) {
 	case "x-actor-id":
 		return "x-actor-id", true
